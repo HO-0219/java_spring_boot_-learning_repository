@@ -9,7 +9,7 @@ public class your_Print {
 //        System.out.print("주석");
         System.out.print("길");
         System.out.print("동");
-        System.out.print("이");
+        System.out.print("씨");
      /*
       sout는  System.out.println()을 위한 핫키 킹갓 자동완성~~~ 희흐
         정확하게는 System의 기본 형식을 통해 (시스템의 기본 입출력을 기준으로)
