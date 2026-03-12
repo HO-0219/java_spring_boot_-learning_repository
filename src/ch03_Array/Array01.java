@@ -1,5 +1,6 @@
 package ch03_Array;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Array01 {
@@ -47,16 +48,23 @@ public class Array01 {
 //        for (int i = (arr.length) -1 ; i >= 0 ; i--) {
 //            System.out.println(arr[i]);
 //        }
-        Scanner s= new Scanner(System.in);
-        String [] bts = new String[7];
+       // Scanner s= new Scanner(System.in);
+        String [] bts = {"진" , "뷔", "정국", "rm", "지민","슈가", "제이홉"};
 // 진 , 뷔, 정국, rm, 지민, 슈가, 제이홉
+//
+//        for (int i = 0; i <bts.length ; i++) {
+//            System.out.print("bts 멤버 이름 : ");
+//            bts[i] = s.nextLine();
+//        }
+//        for (int i = bts.length -1 ; i >= 0 ; i--){
+//            System.out.println(bts[i]);
+//        }
 
-        for (int i = 0; i <bts.length ; i++) {
-            System.out.print("bts 멤버 이름 : ");
-            bts[i] = s.nextLine();
-        }
-        for (int i = bts.length -1 ; i >= 0 ; i--){
-            System.out.println(bts[i]);
+
+        // (배열타입 변수 : 배열변수)
+        // 정방향  FIFO , 후입선출 LIFO
+        for (String items : bts){
+            System.out.println(items);
         }
 
 

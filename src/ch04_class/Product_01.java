@@ -1,7 +1,7 @@
 package ch04_class;
 
 public class Product_01 {
-    String name;
+    public String name;
     int price;
     String inputdate ;
 

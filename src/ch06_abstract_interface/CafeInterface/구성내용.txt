@@ -1,0 +1,21 @@
+부모 클래스(추상 클래스) :
+    Beverage05
+
+Interface :
+    WaterAdjustable
+    ShotAddable
+    MilkAddable
+
+
+    위 4개의 인터페이스를 하나의  CafeInterface로 만듬
+
+    CafeInterface
+
+
+자식 클래스 :
+    Americano05
+    Latte05
+    Espresso05
+
+Maint class :     InheTest05
+
